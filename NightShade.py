@@ -12,7 +12,7 @@ from typing import Optional
 class EncryptionApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("File Encryption")
+        self.root.title("NightShade")
         self.root.geometry("800x600")
         
         # Set the color theme and prevent transparency issues
